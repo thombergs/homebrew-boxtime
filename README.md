@@ -1,0 +1,1 @@
+Homebrew formula for the [boxtime CLI](https://github.com/thombergs/boxtime-cli).
