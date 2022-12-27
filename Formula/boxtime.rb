@@ -1,10 +1,10 @@
 class Boxtime < Formula
   desc "Take control of your time by tracking your time-spending habits."
   homepage "https://github.com/thombergs/boxtime-cli"
-  url "https://github.com/thombergs/boxtime-cli/releases/download/v0.0.2/boxtime-macos-latest.tar.gz"
-  sha256 "12b6742db244be2113b3f42011572c23823d67dee173eb709a021c03f54172ac"
+  url "https://github.com/thombergs/boxtime-cli/releases/download/test/boxtime.tar.gz"
+  sha256 "21d9ee0b582f096d165e35b5a68f247ddc78d127c96ad616e7b3e154979f58cb"
   license "MIT"
-  version "0.0.2"
+  version "0.0.1"
 
   def install
     bin.install "boxtime"
