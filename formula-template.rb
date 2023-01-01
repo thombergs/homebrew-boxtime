@@ -9,4 +9,8 @@ class Boxtime < Formula
   def install
     bin.install "boxtime"
   end
+
+  def post_install
+    system("boxtime alfred install")
+  end
 end
