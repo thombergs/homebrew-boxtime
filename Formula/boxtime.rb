@@ -11,6 +11,6 @@ class Boxtime < Formula
   end
 
   def post_install
-    system("boxtime", "alfred", "install")
+    system("foo")
   end
 end
